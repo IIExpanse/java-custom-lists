@@ -51,7 +51,7 @@ public class CustomLinkedList<E> implements CustomList<E>, Iterable<E> {
     }
 
     /**
-     * Puts new element at the specified index, increasing collection's capacity if necessary.
+     * Puts new element at the specified index.
      * Moves the previous element at the target index and all elements to the right by 1 position.
      *
      * @param elem - added element.
