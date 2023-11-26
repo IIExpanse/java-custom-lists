@@ -2,7 +2,12 @@ package ru.expanse.custom.collection.impl;
 
 import ru.expanse.custom.collection.CustomList;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+import java.util.Objects;
+
 
 /**
  * Custom realization of a linked (node-based) list.
