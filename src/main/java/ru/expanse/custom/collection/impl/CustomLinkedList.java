@@ -176,7 +176,7 @@ public class CustomLinkedList<E> implements CustomList<E>, Iterable<E> {
         Node<E> node;
         int cur;
 
-        if (idx / 2 > idx) {
+        if (size / 2 > idx) {
             cur = 0;
             node = first;
 
