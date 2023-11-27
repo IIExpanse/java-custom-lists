@@ -30,6 +30,13 @@ class CustomArrayListTest {
     }
 
     @Test
+    void capacityIncreaseTest() {
+        Integer[] arr = new Integer[100];
+        assertDoesNotThrow(() -> fillList(list, arr));
+        assertEquals(arr.length, list.size());
+    }
+
+    @Test
     void addByIdx() {
         Integer[] arr1 = new Integer[]{3, 20, 10};
         fillList(list, arr1);
